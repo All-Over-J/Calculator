@@ -1,0 +1,45 @@
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-style: solid;
+    border-color: black;
+    background-color:beige;
+}
+
+.display{
+    background-color: grey;
+    min-height: 60px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color:bisque;
+    width: 25%;
+    /* box-sizing: border-box; */
+}
