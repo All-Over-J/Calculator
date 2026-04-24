@@ -1,3 +1,7 @@
+* {
+  border-radius: 8px;
+}
+
 h1{
     justify-content: center;
     display: flex;
@@ -16,13 +20,20 @@ h1{
 }
 
 .display{
-    background-color: grey;
+    background-color: darkblue;
     min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: greenyellow;
 }
 
 .buttonContainer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
 }
 
 .opButtonContainer{
@@ -36,10 +47,7 @@ h1{
 }
 
 .button{
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    background-color:bisque;
-    width: 25%;
-    /* box-sizing: border-box; */
+    padding: 10px;
+    flex: 25%;
+    margin: 6px;
 }
